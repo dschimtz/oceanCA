@@ -34,3 +34,4 @@ while True:
 	cells[int(uniform(0,len(cells)))].changeColor(0.8)
 	window.update_idletasks()
 	window.update()
+	print("test")

@@ -47,3 +47,4 @@ class Cell:
 	def changeColor(self, bfactor):
 		a = int(255*(bfactor))
 		self.canvas.itemconfig(self.rect, fill=self.rgbToHex(a, a, 255))
+		print("test")
